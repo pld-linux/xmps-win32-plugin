@@ -33,7 +33,7 @@ bibliotek dll do dekodowania formatów wideo w³±czaj±c w to Intel Indeo
 %setup  -q
 
 %build
-libtoolize --copy --force
+%{__libtoolize}
 aclocal
 %{__autoconf}
 %configure \
