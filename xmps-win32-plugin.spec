@@ -2,7 +2,7 @@ Summary:	Win32 DLLs plugin for XMPS
 Summary(pl):	Obs³uga Win32 DLL dla odtwarzacza XMPS
 Name:		xmps-win32-plugin
 Version:	0.0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Group(de):	X11/Applikationen/Multimedia
@@ -32,6 +32,9 @@ bibliotek dll do dekodowania formatów wideo w³±czaj±c w to Intel Indeo
 %setup  -q
 
 %build
+libtoolize --copy --force
+aclocal
+autoconf
 %configure \
 	--enable-static=no
 
