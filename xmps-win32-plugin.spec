@@ -5,9 +5,8 @@ Version:	0.0.4
 Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://xmps.sourceforge.net/sources/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	14a4677fca132d326dde36277f8f912c
-URL:		http://xmps.sourceforge.net/plugins.php3
 Requires:	xmps
 Requires:	w32codec
 BuildRequires:	xmps-devel >= 0.2.0
