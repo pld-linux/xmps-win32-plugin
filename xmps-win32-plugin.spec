@@ -34,7 +34,7 @@ bibliotek dll do dekodowania formatów wideo w³±czaj±c w to Intel Indeo
 
 %build
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %configure \
 	--enable-static=no
