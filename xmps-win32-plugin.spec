@@ -5,8 +5,6 @@ Version:	0.0.4
 Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://xmps.sourceforge.net/sources/%{name}-%{version}.tar.gz
 URL:		http://xmps.sourceforge.net/plugins.php3
 Requires:	xmps
