@@ -17,8 +17,6 @@ BuildRequires:	automake
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 The XMPS win32 plugin will allow XMPS to use the windows dlls to
