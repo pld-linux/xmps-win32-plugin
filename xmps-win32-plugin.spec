@@ -10,7 +10,7 @@ Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://xmps.sourceforge.net/sources/%{name}-%{version}.tar.gz
 URL:		http://xmps.sourceforge.net/plugins.php3
 Requires:	xmps
-Requires:	avi-codecs
+Requires:	w32codec
 BuildRequires:	xmps-devel >= 0.2.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	mawk
