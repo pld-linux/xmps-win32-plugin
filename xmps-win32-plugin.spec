@@ -14,6 +14,9 @@ Requires:	w32codec
 BuildRequires:	xmps-devel >= 0.2.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	mawk
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
