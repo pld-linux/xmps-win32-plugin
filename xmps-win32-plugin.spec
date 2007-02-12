@@ -1,5 +1,5 @@
 Summary:	Win32 DLLs plugin for XMPS
-Summary(pl):	Obs³uga Win32 DLL dla odtwarzacza XMPS
+Summary(pl.UTF-8):   ObsÅ‚uga Win32 DLL dla odtwarzacza XMPS
 Name:		xmps-win32-plugin
 Version:	0.0.4
 Release:	2
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The XMPS win32 plugin will allow XMPS to use the windows dlls to
 decode various video formats, including Intel Indeo 5.0 and DivX ;-).
 
-%description -l pl
-Wtyczka win32 umo¿liwiaj±ca odtwarzaczowi XMPS u¿ywanie windowsowych
-bibliotek dll do dekodowania formatów wideo w³±czaj±c w to Intel Indeo
+%description -l pl.UTF-8
+Wtyczka win32 umoÅ¼liwiajÄ…ca odtwarzaczowi XMPS uÅ¼ywanie windowsowych
+bibliotek dll do dekodowania formatÃ³w wideo wÅ‚Ä…czajÄ…c w to Intel Indeo
 5.0 oraz DivX ;-).
 
 %prep
