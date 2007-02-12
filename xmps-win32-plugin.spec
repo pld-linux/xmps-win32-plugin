@@ -1,5 +1,5 @@
 Summary:	Win32 DLLs plugin for XMPS
-Summary(pl.UTF-8):   Obsługa Win32 DLL dla odtwarzacza XMPS
+Summary(pl.UTF-8):	Obsługa Win32 DLL dla odtwarzacza XMPS
 Name:		xmps-win32-plugin
 Version:	0.0.4
 Release:	2
